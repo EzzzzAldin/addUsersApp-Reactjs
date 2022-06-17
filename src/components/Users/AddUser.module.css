@@ -1,0 +1,28 @@
+.input input {
+  display: block;
+  width: 100%;
+  padding: 4px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.input input:focus {
+  border: 1px solid #272424;
+  outline: none;
+}
+
+.input label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1f1f1f;
+}
+
+.input.invalid label {
+  color: red;
+}
+
+.input.invalid input {
+  border-color: red;
+  background-color: #ffd7d7;
+}
